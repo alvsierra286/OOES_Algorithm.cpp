@@ -15,3 +15,11 @@ The following problem classes are supported:
 
 A bi-objective mixed integer linear instance can be provided as an input file using the following format:
 
+Problem example:
+
+![Images](/Images/Example.jpg)
+![Images](/Images/Obj_fun_example.jpg)
+
+Description of the input file:
+
+![Images](/Images/Input File.jpg)
