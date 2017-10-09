@@ -5,7 +5,7 @@ This is a criterion space search for optimizing a linear function over the set o
 
 The following problem classes are supported:
 
-    i. Objectives:   2 linear objectives.
+    i. Objectives:    2 linear objectives.
     ii. Constraints:  0 or more linear (both inequality and equality) constraints.
     iii. Variables:
         a. Binary
