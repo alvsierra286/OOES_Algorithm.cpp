@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Headers/Compute_Epsilon_Value.h</itemPath>
+      <itemPath>Headers/Extern_Parameters.h</itemPath>
+      <itemPath>Headers/OOES_Finders.h</itemPath>
+      <itemPath>Headers/OOES_Solver.h</itemPath>
+      <itemPath>Headers/Parameters.h</itemPath>
+      <itemPath>Headers/Partial_Solutions.h</itemPath>
+      <itemPath>Headers/Priority_Queue.h</itemPath>
+      <itemPath>Headers/Read_Model.h</itemPath>
+      <itemPath>Headers/Results.h</itemPath>
+      <itemPath>Headers/Split_Triangle_Horizontal.h</itemPath>
+      <itemPath>Headers/Split_Triangle_Vertical.h</itemPath>
+      <itemPath>Headers/Variables_Declaration.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Sources/Compute_Epsilon_Value.cpp</itemPath>
+      <itemPath>Sources/OOES_Finders.cpp</itemPath>
+      <itemPath>Sources/OOES_Solver.cpp</itemPath>
+      <itemPath>Sources/Partial_Solutions.cpp</itemPath>
+      <itemPath>Sources/Priority_Queue.cpp</itemPath>
+      <itemPath>Sources/Read_Model.cpp</itemPath>
+      <itemPath>Sources/Results.cpp</itemPath>
+      <itemPath>Sources/Split_Triangle_Horizontal.cpp</itemPath>
+      <itemPath>Sources/Split_Triangle_Vertical.cpp</itemPath>
+      <itemPath>Sources/Variables_Declaration.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>GUB_evolution.txt</itemPath>
+      <itemPath>Makefile</itemPath>
+      <itemPath>Output.txt</itemPath>
+      <itemPath>Enhancements/enhancements.txt</itemPath>
+      <itemPath>gap_output.txt</itemPath>
+      <itemPath>input.txt</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <commandlineTool>gcc</commandlineTool>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>Headers</pElem>
+            <pElem>/opt/CPLEX/12.7/concert/include</pElem>
+            <pElem>/opt/CPLEX/12.7/cplex/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>IL_STD</Elem>
+          </preprocessorList>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>OOES</output>
+          <commandlineTool>g++</commandlineTool>
+          <linkerLibItems>
+            <linkerLibFileItem>/opt/CPLEX/12.7/cplex/lib/x86-64_linux/static_pic/libilocplex.a</linkerLibFileItem>
+            <linkerLibFileItem>/opt/CPLEX/12.7/cplex/lib/x86-64_linux/static_pic/libcplex.a</linkerLibFileItem>
+            <linkerLibFileItem>/opt/CPLEX/12.7/concert/lib/x86-64_linux/static_pic/libconcert.a</linkerLibFileItem>
+            <linkerLibLibItem>pthread</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Headers/Compute_Epsilon_Value.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Extern_Parameters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/OOES_Finders.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/OOES_Solver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Parameters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Partial_Solutions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Priority_Queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Read_Model.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Results.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Split_Triangle_Horizontal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Headers/Split_Triangle_Vertical.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Variables_Declaration.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sources/Compute_Epsilon_Value.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/OOES_Finders.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/OOES_Solver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Partial_Solutions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Priority_Queue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Read_Model.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Results.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Split_Triangle_Horizontal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Sources/Split_Triangle_Vertical.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Sources/Variables_Declaration.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <commandlineTool>gcc</commandlineTool>
+        </cTool>
+        <ccTool>
+          <commandlineTool>g++</commandlineTool>
+          <incDir>
+            <pElem>Headers</pElem>
+            <pElem>/opt/CPLEX/12.7/concert/include</pElem>
+            <pElem>/opt/CPLEX/12.7/cplex/include</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>IL_STD</Elem>
+          </preprocessorList>
+        </ccTool>
+        <linkerTool>
+          <output>OOES</output>
+          <linkerLibItems>
+            <linkerLibFileItem>/opt/CPLEX/12.7/cplex/lib/x86-64_linux/static_pic/libilocplex.a</linkerLibFileItem>
+            <linkerLibFileItem>/opt/CPLEX/12.7/cplex/lib/x86-64_linux/static_pic/libcplex.a</linkerLibFileItem>
+            <linkerLibFileItem>/opt/CPLEX/12.7/concert/lib/x86-64_linux/static_pic/libconcert.a</linkerLibFileItem>
+            <linkerLibLibItem>pthread</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="Headers/Compute_Epsilon_Value.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Extern_Parameters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/OOES_Finders.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/OOES_Solver.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Parameters.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Partial_Solutions.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Priority_Queue.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Read_Model.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Results.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Split_Triangle_Horizontal.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="Headers/Split_Triangle_Vertical.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Headers/Variables_Declaration.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sources/Compute_Epsilon_Value.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/OOES_Finders.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/OOES_Solver.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Partial_Solutions.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Priority_Queue.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Read_Model.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Results.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sources/Split_Triangle_Horizontal.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Sources/Split_Triangle_Vertical.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="Sources/Variables_Declaration.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
