@@ -23,3 +23,5 @@ Problem example:
 Description of the input file:
 
 ![Images](/Images/Input%20File.jpg)
+
+All numbers must be separated by a single space or a tab space.
