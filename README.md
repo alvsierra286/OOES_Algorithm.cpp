@@ -22,4 +22,4 @@ Problem example:
 
 Description of the input file:
 
-![Images](/Images/Input File.jpg)
+![Images](/Images/Input%20File.jpg)
