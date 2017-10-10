@@ -173,7 +173,7 @@ void Splitting_Triangle_Horizontal(Partial_Solutions* emnt1, Partial_Solutions* 
     z22 = NewNDP[1];
     gap_points1 = fabs(z11 - z21);
     gap_points2 = fabs(z12 - z22);
-    if (emnt3->ObjVal[0] <= emnt2->ObjVal[0] && emnt3->ObjVal[1] <= NewNDP[1]) {
+    if (emnt3->ObjVal[0] <= emnt2->ObjVal[0] + Compute_Epsilon(emnt2->ObjVal[0]) && emnt3->ObjVal[1] <= NewNDP[1] + Compute_Epsilon(NewNDP[1])) {
         DMValue1 = emnt3->fxVal;
     } else {
         if (gap_points1 + gap_points2 > Epsilon * 2 * z11) {
@@ -383,7 +383,7 @@ void Splitting_Triangle_Horizontal(Partial_Solutions* emnt1, Partial_Solutions* 
         z22 = NewNDP[1];
         gap_points1 = fabs(z11 - z21);
         gap_points2 = fabs(z12 - z22);
-        if (emnt3->ObjVal[1] <= emnt1->ObjVal[1] && emnt3->ObjVal[0] <= NewNDP[0]) {
+        if (emnt3->ObjVal[1] <= emnt1->ObjVal[1] + Compute_Epsilon(emnt1->ObjVal[1]) && emnt3->ObjVal[0] <= NewNDP[0]+ Compute_Epsilon(NewNDP[0])) {
             DMValue2 = emnt3->fxVal;
         } else {
             if (gap_points1 + gap_points2 > Epsilon * 2 * z11) {
