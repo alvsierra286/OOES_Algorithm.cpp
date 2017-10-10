@@ -43,3 +43,8 @@ By default, the file *enhancements.txt* applies all enhancements available in th
 
 You can run the example instance included in the repository by typing
 *./OOES enhancements.txt input.txt*
+
+## Supporting and Citing
+The software in this ecosystem was developed as part of academic research. If you would like to help support it, please star the repository as such metrics may help us secure funding in the future. We would be grateful if you could cite:
+
+[Sierra-Altamiranda, A. and Charkhgard, H., A New Exact Algorithm to Optimize a Linear Function Over the Set of Efficient Solutions for Bi-objective Mixed Integer Linear Programming.](http://www.optimization-online.org/DB_FILE/2017/10/6262.pdf)
