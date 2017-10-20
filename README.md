@@ -28,6 +28,8 @@ Description of the input file:
 
 ![Images](/Images/Input%20File.jpg)
 
+Every instance has to be previously organized such that the first variables in the x vector are the continous variables, then the integer and finally the binary variables.
+
 All numbers must be separated by a single space, a tab space or end-line. To see more examples of solved instances, please go to [Optimization-over-efficient-set-for-BOMILP-instances](https://github.com/alvsierra286/Optimization-over-efficient-set-for-BOMILP-instances.git)
 
 ## CPLEX-Concert Technology
