@@ -421,7 +421,7 @@ void Splitting_Triangle_Vertical(Partial_Solutions* emnt1, Partial_Solutions* em
             Diff_Point_Proof[0][1] = fabs(emnt1->ObjVal[1] - element1->ObjVal[1]) / (fabs(element1->ObjVal[1]));
             if (Diff_Point_Proof[0][0] > Epsilon7 && Diff_Point_Proof[0][1] > Epsilon7) {
                 Priority_Queue* emnt3 = new Priority_Queue;
-                emnt3->Assign_Element_to_Queue(emnt1, element1, false, true, DMValue2);
+                emnt3->Assign_Element_to_Queue(emnt1, element1, false, false, DMValue2);
                 if (Prior_Queue.size() > 0) {
                     while (DMValue2 > Prior_Queue.at(x)->LBound) {
                         x += 1;
@@ -442,7 +442,7 @@ void Splitting_Triangle_Vertical(Partial_Solutions* emnt1, Partial_Solutions* em
             int x = 0;
             if (Diff_Point_Proof[1][0] > Epsilon7 && Diff_Point_Proof[1][1] > Epsilon7) {
                 Priority_Queue* emnt4 = new Priority_Queue;
-                emnt4->Assign_Element_to_Queue(element2, emnt2, false, true, DMValue1);
+                emnt4->Assign_Element_to_Queue(element2, emnt2, false, false, DMValue1);
                 if (Prior_Queue.size() > 0) {
                     while (DMValue1 > Prior_Queue.at(x)->LBound) {
                         x += 1;
